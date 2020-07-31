@@ -1,0 +1,37 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+	  "vnetObject": {
+		"value": [
+		  {
+			  "newSubnetName" : "test3",
+			  "newSubnetAddressPrefix" : "10.1.255.192/28"
+		  },
+		  {
+			  "newSubnetName" : "test4",
+			  "newSubnetAddressPrefix" : "10.1.255.176/28"
+		  },
+		  {
+			  "newSubnetName" : "test5",
+			  "newSubnetAddressPrefix" : "10.1.255.160/28"
+		  },
+		  {
+			  "newSubnetName" : "test6",
+			  "newSubnetAddressPrefix" : "10.1.255.144/28"
+		  },
+		  {
+			  "newSubnetName" : "test7",
+			  "newSubnetAddressPrefix" : "10.1.255.128/28"
+		  },
+		  {
+			  "newSubnetName" : "test8",
+			  "newSubnetAddressPrefix" : "10.1.255.112/28"
+		  }
+		  ]
+		  },
+	  "existingVNETName": {
+		"value": "vnet-test1"
+	  }
+	  }
+  }
